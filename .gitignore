@@ -32,3 +32,43 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local env / secrets
+.env
+*.env
+*.key
+*.pem
+*.jks
+*.keystore
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~ 
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Node
+node_modules/
+
+# Build / Android / artifacts
+build/
+.gradle/
+local.properties
+*.apk
+*.apks
+*.aab
+*.img
+
+# Misc
+.cache/
